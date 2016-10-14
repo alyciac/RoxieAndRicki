@@ -1,0 +1,749 @@
+<DOCTYPE html>
+<head>
+    
+    <meta charset="utf-8">
+
+    <title>Roxie and Ricky Natural Dog Supplies</title>
+    <meta name="description" content="Natual, high quality dog supplies.">
+    
+    <!--Da Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Damion|Fredericka+the+Great" rel="stylesheet">
+    
+    <!--Da Stylesheets-->
+    <link href="styles/main.css" rel="stylesheet">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!--Da Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 100%;
+            margin: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <!--Begin utilities-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8"></div>
+            <div class="col-sm-4">
+                <nav id="utilities" class="navbar" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">my account <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Order History</a></li>
+                                <li><a href="#">Saved Lists</a></li>
+                                <li><a href="#">Profile</a></li> 
+                                <li class="divider"></li>
+                                <li><a href="#">Log In</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">where to buy</a></li>
+                        <li><a href="#">cart</a></li>
+                    </ul>
+                    </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--begin top navigation-->    
+    <nav class="navbar navbar-inverse" role="navigation" style="border-radius:0px">
+        <div class="container-fluid">
+            
+            <div class="navbar-header" style="height: 75px;">
+                <a href="index.html">
+                    <div class="logo">
+                        <h1>roxie <span>&amp;</span> ricki</h1>
+                        <h2>natural pet supplies</h2>
+                    </div>
+                </a>
+            </div>
+            
+            <div id="topnav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="about.html">about</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">food</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Dry Food</a></li>
+                        <li><a href="#">Wet Food</a></li>
+                    </ul>
+                </li>
+                <li><a href="productgroup.html">treats</a></li>
+                <li><a href="#">grooming</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-md-2"></div>
+             <div class="col-md-8" style="padding:0;">
+                 <ul class="nav nav-tabs nav-justified" style="padding-top: 40px;">
+                     <li class="active"><a data-toggle="pill" href="#signin">sign in</a></li>
+                     <li><a data-toggle="tab" href="#shipping">shipping</a></li>
+                     <li><a data-toggle="tab" href="#payment">payment</a></li>
+                     <li><a data-toggle="tab" href="#review">review</a></li>
+                 </ul>
+            </div>
+             <div class="col-md-2"></div>
+         </div>
+         
+        <div class="row" style="padding-bottom: 20px;">
+            <div class="col-md-2"></div>
+        
+            <div class="col-md-8" style="border: solid thin lightgray; border-top: 0; margin-bottom: 10px;">
+                
+                <div class="tab-content">
+                    
+                    <div id="signin" class="tab-pane fade in active">
+                        <div class="lefty">
+                        <div class="leftbox">
+                                <h4 class="sections">already have an account?</h4>
+                                <div class="login">
+                                    <p>let's login.</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="email">Email address:</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pwd">Password:</label>
+                                            <input type="password" class="form-control" id="pwd">
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><input type="checkbox"> Remember me</label>
+                                            <br>
+                                            <a href="#">forgot password?</a>
+                                        </div>
+                        
+                                          <a data-toggle="pill" href="#shipping" role="button" class="btn btn-default">Sign In</a>
+                                    </form>
+                                </div>
+                                <div class="extra">
+                                        <p>or use an existing account with one of these guys: </p><br>
+                                        <button type="button" class="btn btn-default">Login with Facebook</button>
+                                        <br>
+                                        <button type="button" class="btn btn-default">Login with Google</button>
+                                </div>
+                                <div class="clearfix"> </div>
+                                
+                            </div> <!--end leftbox section good--->
+                            
+                             <div class="leftbox">
+                                <h4 class="sections">are you a new customer?</h4>
+                                <div class="login">
+                                    <p>let's create a login.</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="email">Email address:</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pwd">Password:</label>
+                                            <input type="password" class="form-control" id="pwd">
+                                        </div>
+                                          <a data-toggle="tab" href="#shipping" role="button" class="btn btn-default">Create an Account</a>
+                                    </form>
+                                </div>
+                                <div class="extra">
+                                        <p>or you can check out as a guest and create an account later.</p>
+                                        <br>
+                                        <br>
+                                        <a data-toggle="pill" href="#shipping" role="button" class="btn btn-default">Guest Checkout</a>
+                                        
+                                </div>
+                                <div class="clearfix"> </div>
+
+                                </div> <!--end leftbox--->
+                            </div> <!--end lefty-->
+                        
+                        <div class="customersupport">
+                             <h2 class="fred">Customer Support</h2>
+                                <br>
+                             <ul class="support">
+                                 <lh>need a little help?</lh>
+                                 <li>555.867.5309</li>
+                                 <li>support@roxieandricki.com</li>
+                             </ul>
+                            <br>
+                            <ul class="support">
+                                 <lh>hours of operation</lh>
+                                 <li>Monday to Friday:</li>
+                                 <li>8am to 5pm</li>
+                                <li>Saturday:</li>
+                                <li>10am to 2pm </li>
+                             </ul>
+                            <br>
+
+                            <ul class="support">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping policy</a></li>
+                            <li><a href="#">refund policy</a></li>
+                            <li><a href="#">quality guarantee</a></li>
+                            </ul>
+
+                            <ul class="support">
+                            <li><a href="#">continue shopping</a></li>
+                            </ul>
+                            <br>
+                        </div> 
+                        <!--end customer support--->
+                        
+                        <div class="ordersum">
+                            <h2 class="fred">Order Summary</h2>
+                            <div class="bigtable">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Options</th>
+                                            <th>Item</th>
+                                            <th>Description</th>
+                                            <th>Quanity</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="#">Remove</a><br>
+                                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Click to add to Wishlist" >Save for Later</a>
+                                                </td>
+                                                <td>
+                                                    <img src="images/bite.jpg" height="150" width="150" alt="Picture of Training Treats">
+                                                </td>
+                                                <td>
+                                                    <a href="productpage.html">Marcus' Active Dog Training Treats</a><br>
+                                                    <p>In Stock</p>
+                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                </td>
+                                                <td>
+                                                     <input type="number" name="quantity" min="1" max="10" size="2" value="1"><br>
+                                                    <a href="#">Update</a>
+                                                </td>
+                                                <td style="text-align: right;">$5.99</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <a href="shoppingcart.html">Back to Cart</a><br>
+                                 <a href="products.html">Continue Shopping</a><br>
+                                </div>
+                            </div> <!--end big table -->
+                            <div class="littletable">
+                            <div class="table-responsive">
+                                <table class="table">
+
+                                    <tbody>
+                                        <tr>
+                                            <td style="border-top: none;">Subtotal:</td>
+                                            <td style="border-top: none; text-align: right;">5.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tax:</td>
+                                            <td style="text-align: right;">0.60</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shipping:<br>
+                                                5-7 business days
+                                            </td>
+                                            <td style="text-align: right;">FREE</td>
+                                        </tr>
+                                        <tr>
+                                            <td><Strong>Total:</Strong></td>
+                                            <td style="text-align: right;"><strong>$6.59</strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> <!--End responsive table-->
+                         </div> <!--End Little Table-->
+                        </div> <!--End Order Sum-->  
+                        
+                    </div> <!--End sigin section good-->
+                    
+                    <div id="shipping" class="tab-pane fade">
+                        <div class="lefty">
+                        <div class="leftbox">
+                            <h4 class="sections">where are we sending your purchase?</h4>
+                                <form style="padding: 10px;">
+                                     <p>Sorry, we cannot ship to PO Boxes.</p>
+                                    <div class="form-group" >
+                                        <label for="fname">First Name</label>
+                                        <input type="text" class="form-control input-sm" id="fname">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" class="form-control input-sm" id="lname">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address">Address</label>
+                                        <input type="text" class="form-control input-sm" id="address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="font-weight:normal;" for="address2">Address 2 - optional</label>
+                                        <input type="text" class="form-control input-sm" id="address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="city">City</label>
+                                        <input type="text" class="form-control input-sm" id="city">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="zip">Zip Code</label>
+                                        <input type="text" class="form-control input-sm" id="zip">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment" style="font-weight:normal;">Special Instructions - optional </label>
+                                        <textarea class="form-control" rows="5" id="comment" placeholder="ie - Do not leave package with dog. She cannot be trusted."></textarea>
+                                     </div>
+                                    
+                                     <div class="form-group">
+                                        <label for="tel" style="font-weight: normal;">Phone Number - optional</label>
+                                        <input type="tel" class="form-control input-sm" id="tel">
+                                    </div>
+                                    
+                                    <div class="checkbox">
+                                    <label><input type="checkbox" value="">Use shipping address for billing</label>
+                                    </div>
+                                    
+                                    <a data-toggle="tab" data-target="#payment" role="button" class="btn btn-default">Continue</a>
+                            
+                                    </form>
+                                <div class="clearfix"> </div>
+
+                            </div> <!--end leftbox--->
+                            </div> <!--end lefty-->
+                        
+                        <div class="customersupport">
+                             <h2 class="fred">Customer Support</h2>
+                                <br>
+                             <ul class="support">
+                                 <lh>need a little help?</lh>
+                                 <li>555.867.5309</li>
+                                 <li>support@roxieandricki.com</li>
+                             </ul>
+                            <br>
+                            <ul class="support">
+                                 <lh>hours of operation</lh>
+                                 <li>Monday to Friday:</li>
+                                 <li>8am to 5pm</li>
+                                <li>Saturday:</li>
+                                <li>10am to 2pm </li>
+                             </ul>
+                            <br>
+
+                            <ul class="support">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping policy</a></li>
+                            <li><a href="#">refund policy</a></li>
+                            <li><a href="#">quality guarantee</a></li>
+                            </ul>
+
+                            <ul class="support">
+                            <li><a href="#">continue shopping</a></li>
+                            </ul>
+                            <br>
+                        </div> 
+                        <!--end customer support--->
+                        
+                        <div class="ordersum">
+                            <h2 class="fred">Order Summary</h2>
+                            <div class="bigtable">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Options</th>
+                                            <th>Item</th>
+                                            <th>Description</th>
+                                            <th>Quanity</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="#">Remove</a><br>
+                                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Click to add to Wishlist" >Save for Later</a>
+                                                </td>
+                                                <td>
+                                                    <img src="images/bite.jpg" height="150" width="150" alt="Picture of Training Treats">
+                                                </td>
+                                                <td>
+                                                    <a href="productpage.html">Marcus' Active Dog Training Treats</a><br>
+                                                    <p>In Stock</p>
+                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                </td>
+                                                <td>
+                                                     <input type="number" name="quantity" min="1" max="10" size="2" value="1"><br>
+                                                    <a href="#">Update</a>
+                                                </td>
+                                                <td style="text-align: right;">$5.99</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <a href="shoppingcart.html">Back to Cart</a><br>
+                                 <a href="products.html">Continue Shopping</a><br>
+                                </div>
+                            </div> <!--end big table -->
+                            <div class="littletable">
+                            <div class="table-responsive">
+                                <table class="table">
+
+                                    <tbody>
+                                        <tr>
+                                            <td style="border-top: none;">Subtotal:</td>
+                                            <td style="border-top: none; text-align: right;">5.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tax:</td>
+                                            <td style="text-align: right;">0.60</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shipping:<br>
+                                                5-7 business days
+                                            </td>
+                                            <td style="text-align: right;">FREE</td>
+                                        </tr>
+                                        <tr>
+                                            <td><Strong>Total:</Strong></td>
+                                            <td style="text-align: right;"><strong>$6.59</strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> <!--End responsive table-->
+                         </div> <!--End Little Table-->
+                        </div> <!--End Order Sum-->  
+                    
+                    </div> <!---End Shipping-->
+                    
+                    <div id="payment" class="tab-pane fade">
+                        <div class="lefty">
+                        <div class="leftbox">
+                            <h4 class="sections">who should we charge this to?</h4>
+                                <form style="padding: 10px;">
+                                     <h4>Billing Address</h4>
+                                    <div class="form-group" >
+                                        <label for="fname">First Name</label>
+                                        <input type="text" class="form-control input-sm" id="fname">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" class="form-control input-sm" id="lname">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address">Address</label>
+                                        <input type="text" class="form-control input-sm" id="address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="font-weight:normal;" for="address2">Address 2 - optional</label>
+                                        <input type="text" class="form-control input-sm" id="address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="city">City</label>
+                                        <input type="text" class="form-control input-sm" id="city">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="zip">Zip Code</label>
+                                        <input type="text" class="form-control input-sm" id="zip">
+                                    </div>
+                                    
+                                    <h4>Credit Card Information</h4>
+                                    
+                                    <div class="form-group">
+                                        <label for="cardname">Name as it apprears on the card</label>
+                                        <input type="text" class="form-control input-sm" id="cardname">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="cardnum">Card Card Number</label>
+                                        <input type="text" class="form-control input-sm" id="cardname">
+                                    </div>
+                                    
+                                    
+                                    <div  style="width: 25%; display: inline-block;" class="form-group">
+                                            <label>Expiration Date</label>
+                                            <input placeholder="MMYYYY" class="form-control" class="ex1" type="text">
+                                    </div>
+                                    
+                                    <div  style="width: 25%; display: inline-block;" class="form-group">
+                                        <label>CVV. </label>
+                                        <a href="#">What's this?</a>
+                                            <input class="form-control" class="ex1" type="text">
+                                            
+                                    </div>
+                                    <div>
+                                        <a data-toggle="pill" href="#review" role="button" class="btn btn-default">Continue</a>
+                                    </div>    
+                                    
+                            
+                                    </form>
+                                <div class="clearfix"> </div>
+
+                            </div> <!--end leftbox--->
+                        
+                            </div> <!--end lefty-->
+                        
+                         <div class="customersupport">
+                             <h2 class="fred">Customer Support</h2>
+                                <br>
+                             <ul class="support">
+                                 <lh>need a little help?</lh>
+                                 <li>555.867.5309</li>
+                                 <li>support@roxieandricki.com</li>
+                             </ul>
+                            <br>
+                            <ul class="support">
+                                 <lh>hours of operation</lh>
+                                 <li>Monday to Friday:</li>
+                                 <li>8am to 5pm</li>
+                                <li>Saturday:</li>
+                                <li>10am to 2pm </li>
+                             </ul>
+                            <br>
+
+                            <ul class="support">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping policy</a></li>
+                            <li><a href="#">refund policy</a></li>
+                            <li><a href="#">quality guarantee</a></li>
+                            </ul>
+
+                            <ul class="support">
+                            <li><a href="#">continue shopping</a></li>
+                            </ul>
+                            <br>
+                        </div> <!--end customer support--->
+                         <div class="ordersum">
+                            <h2 class="fred">Order Summary</h2>
+                            <div class="bigtable">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Options</th>
+                                            <th>Item</th>
+                                            <th>Description</th>
+                                            <th>Quanity</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="#">Remove</a><br>
+                                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Click to add to Wishlist" >Save for Later</a>
+                                                </td>
+                                                <td>
+                                                    <img src="images/bite.jpg" height="150" width="150" alt="Picture of Training Treats">
+                                                </td>
+                                                <td>
+                                                    <a href="productpage.html">Marcus' Active Dog Training Treats</a><br>
+                                                    <p>In Stock</p>
+                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                </td>
+                                                <td>
+                                                     <input type="number" name="quantity" min="1" max="10" size="2" value="1"><br>
+                                                    <a href="#">Update</a>
+                                                </td>
+                                                <td style="text-align: right;">$5.99</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <a href="shoppingcart.html">Back to Cart</a><br>
+                                 <a href="products.html">Continue Shopping</a><br>
+                                </div>
+                            </div> <!--end big table -->
+                            <div class="littletable">
+                            <div class="table-responsive">
+                                <table class="table">
+
+                                    <tbody>
+                                        <tr>
+                                            <td style="border-top: none;">Subtotal:</td>
+                                            <td style="border-top: none; text-align: right;">5.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tax:</td>
+                                            <td style="text-align: right;">0.60</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shipping:<br>
+                                                5-7 business days
+                                            </td>
+                                            <td style="text-align: right;">FREE</td>
+                                        </tr>
+                                        <tr>
+                                            <td><Strong>Total:</Strong></td>
+                                            <td style="text-align: right;"><strong>$6.59</strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> <!--End responsive table-->
+                         </div> <!--End Little Table-->
+                        </div> <!--End Order Sum-->  
+
+                    </div><!--end payment-->
+                    
+                    <div id="review" class="tab-pane fade">
+                        <h4 class="sections">almost done! let's review. </h4>
+                        <a href="confirmation.html" role="button" class="btn btn-default">Place Order</a>
+                        <br>
+                        
+                        <p style="padding-top: 20px;">Please review your order information before placing your order.</p>
+                        
+                        <div>
+                            <div class="ship">
+                                <b>Shipping Address</b><br>
+                                <p>Roxie McGruff<br>
+                                    123 Taco Lane<br>
+                                    Seattle, Wa 98117<br>
+                                    (555)867-5309<br><br>
+                                    <b>Special Instructions</b><br>
+                                    Please leave package on back patio.<br><br>
+                                    <b>Shipping updates sent to:</b><br>
+                                    ilovetacos@gmail.com
+                                </p>
+                                <p><b>Estimated arrival: </b>5-7 business days.</p>
+                            </div>
+                            <div class="ship">
+                                <b>Billing Address</b><br>
+                                <p>Roxie McGruff<br>
+                                    123 Taco Lane<br>
+                                    Seattle, Wa 98117<br><br>
+                                    <b>Payment Method</b><br>
+                                    Visa ending 1234
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="ordersum">
+                            <div class="bigtable">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Item</th>
+                                            <th>Description</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img src="images/bite.jpg" height="150" width="150" alt="Picture of Training Treats">
+                                                </td>
+                                                <td>
+                                                    <a href="productpage.html">Marcus' Active Dog Training Treats</a><br>
+                                                    <p>In Stock</p>
+                                                    <p>QTY: 1</p>
+                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                                </td>
+                                                <td style="text-align: right;">$5.99</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!--end big table -->
+                            <div class="littletable">
+                            <div class="table-responsive">
+                                <table class="table">
+
+                                    <tbody>
+                                        <tr>
+                                            <td style="border-top: none;">Subtotal:</td>
+                                            <td style="border-top: none; text-align: right;">5.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tax:</td>
+                                            <td style="text-align: right;">0.60</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shipping:<br>
+                                                5-7 business days
+                                            </td>
+                                            <td style="text-align: right;">FREE</td>
+                                        </tr>
+                                        <tr>
+                                            <td><Strong>Total:</Strong></td>
+                                            <td style="text-align: right;"><strong>$6.59</strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> <!--End responsive table-->
+                         </div> <!--End Little Table-->
+                        </div> <!--End Order Sum-->  
+                        <div class="btn-group" style="padding-bottom: 20px;">
+                            <a href="confirmation.html" role="button" class="btn btn-default">Place Order</a>
+                            <a href="shoppingcart.html" role="button" class="btn btn-default">Make Changes</a>
+                        </div>
+                        
+                    
+                    </div>
+                    
+            
+                </div> <!--End Tab Content-->
+            </div><!---End Col-->
+            
+            <div class="col-md-2"></div>
+         </div> <!--End Row-->
+         
+    </div><!-- END CONTAINER / main content -->
+        
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul style="padding-left:0; ">
+                    <lh>products</lh>
+                    <li>dry Food</li>
+                    <li>wet Food </li>
+                    <li>treats</li>
+                    <li>grooming</li>
+                </ul>
+                <ul>
+                    <lh>find a store</lh>
+                </ul>
+
+                <ul>
+                    <lh>about Us</lh>
+                    <li>philosophy</li>
+                    <li>history</li>
+                    <li>careers</li>
+                </ul>
+                <ul>
+                    <lh>my account</lh>
+                    <li>order history</li>
+                    <li>saved lists</li>
+                    <li>profile</li>
+                </ul>
+                <ul>
+                    <lh>contact</lh>
+                    <li>&#40;555&#41; 867-5309</li>
+                    <li>info&#64;roxieandricki.com</li>
+                </ul>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</body>

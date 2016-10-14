@@ -1,0 +1,459 @@
+*{
+    font-size: 16px; 
+}
+
+body{
+    width:100%; 
+}
+a:hover{
+    text-decoration: none !important; 
+}
+#utilities a{
+    color: dimgray; 
+}
+
+#utilities{
+    padding-bottom: 0; 
+    margin-bottom: 0; 
+}
+
+.logo {
+    display: inline; 
+    width: 31.24%;
+    padding-left: 33.333%;
+    padding-bottom: 0; 
+}
+
+ .logo h1{
+    /*Google Font */
+    font-family: 'Fredericka the Great', cursive; 
+    font-size: 3em; 
+    padding-bottom: 0; 
+    margin: 0; 
+    font-weight: normal;
+    display: inline;
+    color: whitesmoke; 
+}
+
+.logo h1 span{
+     color: #73C6B6;
+     display: inline;
+    font-size: 1em; 
+}
+
+.logo h2{
+    /*Google Font for h2*/
+    font-family: 'Damion', cursive;
+    font-size: 2.25em; 
+    margin-top: -20px; 
+    margin-left: 150px; 
+    font-weight: normal; 
+    display: block;
+    text-align: left;
+    color: whitesmoke;
+    padding-left: 0; 
+    padding-bottom: 0; 
+}
+
+.logo a:active{
+    color: whitesmoke !important;
+}
+
+#topnav{
+   padding-right: 7.5% !important; 
+}
+
+.navbar{
+    margin-bottom: 0px !important; 
+}
+
+.carousel-caption{
+    text-align: right !important; 
+    right: 10% !important; 
+    position: static; 
+    
+}
+
+.carousel-caption span{
+    color: darkorange; 
+    font-family: 'Damion', cursive;
+    font-size: 2.25em; 
+    
+}
+
+.carousel-caption h2{
+    font-size: 2.188em; 
+    margin-bottom: -30px !important; 
+    padding-bottom: 0;
+    margin-top: 0; 
+
+}
+
+.carousel-caption a {
+    background-color: mediumturquoise !important; 
+    margin-top: 50px; 
+}
+
+.preview{
+    text-align: center;
+}
+
+.preview div{
+    padding-bottom: 10%; 
+}
+
+.preview h2{
+    color: darkorange; 
+    font-family: 'Fredericka the Great', cursive; 
+    
+}
+
+.preview p{
+    margin-bottom: 30px; 
+}
+
+.preview img{
+    margin-left: 15%; 
+    margin-right: 15%; 
+}
+.circle {
+	width: 100px;
+	height: 100px;
+	background: mediumturquoise; 
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    font-family: 'Fredericka the Great', cursive;
+    color: black; 
+    background-size: cover; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.footer{
+    padding-top: 2%; 
+    background-color: black; 
+    color: white; 
+    font-size: 0.5em;
+    font-family: "Helvetica Neue",Helvetica,Arial, sans-serif;
+    
+}
+
+.footer ul{
+    float: left; 
+    list-style: none; 
+    color: darkgrey; 
+    padding-left: 11%; 
+}
+
+.footer ul lh{
+    font-weight: bold; 
+    padding-bottom: 10px; 
+}
+
+.footer ul li{
+    font-weight: lighter; 
+}
+
+.breadcrumb{
+    background-color: white !important; 
+}
+
+#topimage{
+    background-image: url('veggies.jpg');
+    width: 100%; 
+    height: 345px; 
+}
+
+.col-md-4{
+    background-color: lightgrey; 
+    height: 140px; 
+    margin-top: 15px; 
+    margin-left: 5px; 
+    margin-right: 5px; 
+}
+
+.col-md-4 h3{
+    color: darkorange; 
+    text-align: center; 
+    font-size: 2.875em; 
+    padding-top: 0; 
+    margin-top: .5%; 
+}
+
+.col-md-4 p{
+    color: dimgray; 
+    text-align: center; 
+    font-size: 1.5em; 
+}
+
+#content {
+    margin-bottom: 20px; 
+    padding-left: 0;
+    padding-right: 0; 
+    padding-top: 0; 
+}
+
+#content h2{
+    color: mediumturquoise; 
+    font-family: 'Damion', cursive;  
+    padding-top: 0; 
+    font-size: 3.75em; 
+}
+
+#content p{
+    color: dimgray; 
+}
+
+#content p a{
+    color: mediumturquoise; 
+}
+
+#selector{
+    background-color: whitesmoke;
+}
+.productbox{
+    float: left; 
+    background-color: whitesmoke;
+    width: 50%; 
+    height: 300px; 
+    border-style: solid; 
+    border-width: 3px; 
+    border-color: white;
+    
+}
+.productbox h3{
+    text-align: center; 
+    margin: 15px;
+    height: 55px; 
+}
+
+.productbox button{
+    width: 40%; 
+    margin-left:50%; 
+    margin-bottom: 5px;
+}
+
+.productbox a{
+    width: 40%; 
+    margin-left:50%; 
+    margin-bottom: 5px;
+}
+
+#treats{
+    background-image: url('treats.jpg');
+    height: 345px; 
+}
+
+.overview {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px; 
+    background-color: mediumturquoise;
+    color: whitesmoke;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.overview h4{
+    text-align: center; 
+    margin: 0; 
+    font-size:  1.875em;
+    padding-top: 15px; 
+}
+
+.overview h5{
+    text-align: center; 
+    margin: 0; 
+    font-size: 1.5em; 
+
+}
+
+.productdes{
+    color: dimgray;
+}
+
+.productdes a{
+    font-size: 1.25em; 
+}
+
+.productdes button{
+    font-size: 1.25em; 
+}
+
+.productdes p{
+    padding-bottom: 10px; 
+}
+
+.productdes span{
+    font-size: .5em; 
+}
+
+.graphic {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px; 
+    background-color: mediumturquoise;
+    color: dimgray;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-right: 20px; 
+    float: left;   
+    padding-bottom: 0; 
+}
+
+.graphic h5{
+    text-align: center; 
+    margin: 0; 
+    font-size: 2em; 
+    padding-top: 25px;
+    color: whitesmoke; 
+    font-family: 'Damion', cursive; 
+}
+
+.overviewarea ul{
+    clear: both; 
+    width: 100%; 
+}
+
+.upsale{
+    float: left; 
+    width: 33%; 
+    text-align: center; 
+    background: whitesmoke; 
+    padding-bottom: 10px; 
+    border: solid thick white; 
+}
+
+.sections{
+    background-color: mediumturquoise; 
+    color: white; 
+    padding: 10px; 
+    width: 100%;
+}
+
+.customersupport{
+    float: left; 
+    width: 33.33%; 
+    height: 100%;
+    padding-left: 15px; 
+}
+
+.support{
+    padding-left: 10px;
+}
+
+.support lh{
+    font-weight: bold; 
+    color: dimgray; 
+    font-size: .9em; 
+}
+
+.support li{
+    color: dimgray; 
+    list-style: none;
+    font-size: .9em; 
+}
+
+.lefty{
+    float: left; 
+    width: 66.6%; 
+}
+
+.leftbox{ 
+    margin-top: 10px; 
+    border-bottom: solid thin lightgray; 
+    border-left: solid thin lightgray;
+    border-right: solid thin lightgray;
+    border-top: solid thin lightgray;
+    margin-bottom: 20px; 
+}
+
+.leftbox h4{
+    margin-top: 0; 
+}
+
+.login{
+    float: left;
+    width: 60%; 
+    padding: 10px; 
+    border-right: solid thin lightgray;
+    margin-bottom: 3px; 
+    display: inline-block;
+   
+}
+
+.extra{ 
+    float: left;
+    width: 40%; 
+    padding: 10px; 
+    overflow: auto; 
+    display: inline-block; 
+}
+
+.extra button{
+    width: 100%; 
+    margin: 5px; 
+}
+
+.clearfix{
+    clear: both; 
+}
+
+.fred{
+    font-family: 'Fredericka the Great';
+    font-size: 2em; 
+    
+}
+
+.ordersum{
+    display: inline-block;
+    padding-bottom: 20px; 
+}
+
+.bigtable{
+    display: inline-block; 
+    width: 75%;
+    float: left;
+    padding-right: 20px; 
+}
+
+.littletable{
+    display:inline-block;
+    width: 25%;
+    float: left;
+}
+
+.ship{
+    display: inline-block;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 50px; 
+}
+
+@media print{
+    .navbar {
+        display: none; 
+    }
+    
+    .footer {
+        display: none; 
+    }
+    img {
+        display: none;  
+    }
+    .btn-default{
+        display: none; 
+    }
+}
+
+
+
+

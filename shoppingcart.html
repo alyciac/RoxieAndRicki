@@ -1,0 +1,267 @@
+<DOCTYPE html>
+<head>
+    
+    <meta charset="utf-8">
+
+    <title>Roxie and Ricky Natural Dog Supplies</title>
+    <meta name="description" content="Natual, high quality dog supplies.">
+    
+    <!--Da Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Damion|Fredericka+the+Great" rel="stylesheet">
+    
+    <!--Da Stylesheets-->
+    <link href="styles/main.css" rel="stylesheet">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!--Da Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 100%;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!--Begin utilities-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8"></div>
+            <div class="col-sm-4">
+                <nav id="utilities" class="navbar" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">my account <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Order History</a></li>
+                                <li><a href="#">Saved Lists</a></li>
+                                <li><a href="#">Profile</a></li> 
+                                <li class="divider"></li>
+                                <li><a href="#">Log In</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">where to buy</a></li>
+                        <li><a href="shoppingcart.html">cart</a></li>
+                    </ul>
+                    </nav>
+            </div>
+        </div>
+    </div>
+
+        <!--begin top navigation-->    
+    <nav class="navbar navbar-inverse" role="navigation" style="border-radius:0px">
+        <div class="container-fluid">
+            
+            <div class="navbar-header" style="height: 75px;">
+                <a href="index.html">
+                    <div class="logo">
+                        <h1>roxie <span>&amp;</span> ricki</h1>
+                        <h2>natural pet supplies</h2>
+                    </div>
+                </a>
+            </div>
+            
+            <div id="topnav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">about</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">food</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Dry Food</a></li>
+                        <li><a href="#">Wet Food</a></li>
+                    </ul>
+                </li>
+                <li><a href="productgroup.html">treats</a></li>
+                <li><a href="#">grooming</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    
+     <div class="container-fluid" style="padding: 3.25em 0 3.25em 0;">
+            
+        <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8">
+                  <h1 class="fred">Shopping Cart</h1>
+              </div>
+              <div class="col-md-2"></div>
+        </div>
+         
+         <div class="row">
+             <div class="col-md-9"></div>
+             <div class="col-md-1">
+                 <a class="btn btn-warning" href="signin.html" role="button">Checkout</a>
+             </div>
+             <div class="col-md-2"></div>
+        </div>
+        
+        
+        <div class="row"><!--start table ROW-->
+        
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="table-responsive">
+                    <table class="table" style="border-bottom: thin solid lightgray;">
+                        <thead>
+                            <tr>
+                                <th>Options</th>
+                                <th>Item</th>
+                                <th>Description</th>
+                                <th>Quanity</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>
+                                <a href="#">Remove</a><br>
+                                <a href="#" data-toggle="tooltip" data-placement="right" title="Click to add to Wishlist" >Save for Later</a>
+                            </td>
+                            <td>
+                                <img src="images/bite.jpg" height="150" width="150" alt="Picture of Training Treats">
+                            </td>
+                            <td>
+                                <a href="productpage.html">Marcus' Active Dog Training Treats</a><br>
+                                <p>In Stock</p>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                            </td>
+                            <td>
+                                 <input type="number" name="quantity" min="1" max="10" size="2" value="1"><br>
+                                <a href="#">Update</a>
+                            </td>
+                            <td style="text-align: right;">$5.99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+         <!--end table ROW-->
+         
+         <div class="row">
+             <div class="col-md-2"></div>
+             <div class="col-md-5"></div>
+             <div class="col-md-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td style="border-top: none;">Subtotal:</td>
+                                <td style="border-top: none; text-align: right;">5.99</td>
+                            </tr>
+                            <tr>
+                                <td>Tax:</td>
+                                <td style="text-align: right;">0.60</td>
+                            </tr>
+                            <tr>
+                                <td>Shipping:<br>
+                                    5-7 business days
+                                </td>
+                                <td style="text-align: right;">FREE</td>
+                            </tr>
+                            <tr>
+                                <td><Strong>Total:</Strong></td>
+                                <td style="text-align: right;"><strong>$6.59</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+             <div class="col-md-2"></div>
+         </div>
+         
+         <div class="row">
+             <div class="col-md-9"></div>
+             <div class="col-md-1">
+                 <a href="signin.html" class="btn btn-warning" href="signin.html" role="button">Checkout</a>
+             </div>
+             <div class="col-md-2"></div>
+        </div>
+        <!--END ROW--->
+         <div class="row">
+             <div class="col-md-2"></div>
+             <div class="col-md-5">
+                <p>Your dog may also like:</p>
+             </div>
+             <div class="col-md-5"></div>
+         </div>
+         <div class="row">
+            <div class="col-md-2"></div>
+             <div class="col-md-5">
+                <div class="upsale">
+                    <img  class="img-responsive" src="images/patchs.jpg" width="180" height="100" alt="Doggy Treat Bites">
+                    <h4>Patch's Training Treats</h4>
+                    <a class="btn btn-warning" href="productgroup.html" role="button">Buy Now</a>
+                </div>
+                 <div class="upsale">
+                    <img  class="img-responsive" src="images/kibble.jpg" width="180" height="100" alt="Doggy Treat Bites">
+                    <h4>Marcus' Active Dog Kibble</h4>
+                    <a class="btn btn-warning" href="productgroup.html" role="button">Buy Now</a>
+                </div>
+                 <div class="upsale">
+                    <img  class="img-responsive" src="images/patchs.jpg" width="180" height="100" alt="Doggy Treat Bites">
+                    <h4>Roxie's Fat Dog Training Treat</h4>
+                    <a class="btn btn-warning" href="productgroup.html" role="button">Buy Now</a>
+                </div>
+            </div>
+             <div class="col-md-5"></div>
+         </div>
+         
+    </div>
+    <!-- END CONTAINER -->
+        
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul style="padding-left:0; ">
+                    <lh>products</lh>
+                    <li>dry Food</li>
+                    <li>wet Food </li>
+                    <li>treats</li>
+                    <li>grooming</li>
+                </ul>
+                <ul>
+                    <lh>find a store</lh>
+                </ul>
+
+                <ul>
+                    <lh>about Us</lh>
+                    <li>philosophy</li>
+                    <li>history</li>
+                    <li>careers</li>
+                </ul>
+                <ul>
+                    <lh>my account</lh>
+                    <li>order history</li>
+                    <li>saved lists</li>
+                    <li>profile</li>
+                </ul>
+                <ul>
+                    <lh>contact</lh>
+                    <li>&#40;555&#41; 867-5309</li>
+                    <li>info&#64;roxieandricki.com</li>
+                </ul>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</body>
